@@ -290,16 +290,16 @@ img {
   border-radius: 0.5rem;
   z-index: var(--z-back);
 }
-.skills__html {
+.skills__python {
   width: 95%;
 }
-.skills__css {
+.skills__sql {
   width: 85%;
 }
-.skills__js {
+.skills__mongodb {
   width: 65%;
 }
-.skills__ux {
+.skills__aws {
   width: 85%;
 }
 .skills__img {
