@@ -277,6 +277,7 @@ img {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
+
 .skills__names {
   display: flex;
   align-items: center;
@@ -298,6 +299,12 @@ img {
 }
 .skills__mongodb {
   width: 65%;
+}
+.skills__snowflakes {
+  width: 50%;
+}
+.skills__databricks {
+  width: 50%;
 }
 .skills__aws {
   width: 85%;
