@@ -79,7 +79,7 @@ ul {
   gap: 24px;
   width: 100%;
   margin: 0;
-  padding: 22px max(24px, calc((100vw - var(--max)) / 2));
+  padding: 18px max(24px, calc((100vw - var(--max)) / 2));
   border: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 0;
@@ -127,9 +127,9 @@ ul {
   display: grid;
   place-items: center;
   width: 100%;
-  min-height: 115dvh;
+  min-height: calc(100dvh - 72px);
   margin: 0 auto;
-  padding: clamp(74px, 10vw, 132px) 24px 96px;
+  padding: clamp(42px, 6vw, 76px) 24px 72px;
   overflow: hidden;
   background:
     radial-gradient(circle at 38% 58%, rgba(0, 202, 224, 0.14), transparent 34%),
@@ -320,9 +320,9 @@ p {
 }
 
 h1 {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   color: #f6f8fb;
-  font-size: clamp(54px, 8.1vw, 104px);
+  font-size: clamp(46px, 5.9vw, 84px);
   font-weight: 800;
   line-height: 0.98;
   letter-spacing: -0.04em;
@@ -339,15 +339,15 @@ h1 span {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: clamp(15px, 1.4vw, 18px);
   font-weight: 500;
-  margin-bottom: 34px;
+  margin-bottom: 28px;
 }
 
 .hero-text {
-  max-width: 760px;
+  max-width: 720px;
   color: rgba(255, 255, 255, 0.64);
-  font-size: clamp(20px, 2.15vw, 29px);
-  line-height: 1.42;
-  margin-bottom: 38px;
+  font-size: clamp(18px, 1.65vw, 24px);
+  line-height: 1.5;
+  margin-bottom: 32px;
 }
 
 .hero-actions,
